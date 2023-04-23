@@ -1,4 +1,5 @@
 # AsymmeTrix: Asymmetric Vector Embeddings for Directional Similarity Search
+
 Read the full paper <a href='https://yoheinakajima.com/asymmetrix-asymmetric-vector-embeddings-for-directional-similarity-search/'>here<a>.
 AsymmeTrix is a Python library that utilizes asymmetric cosine similarity to capture directional relationships between objects. It offers a new approach to vector search and embeddings, addressing the limitations of symmetric similarity measures.
 
@@ -6,18 +7,23 @@ Traditional vector embeddings typically use symmetric similarity measures like c
 
 AsymmeTrix addresses this issue by introducing a weighting factor based on a domain-specific asymmetric weighting function. This allows for more accurate and meaningful representations in applications where directionality is essential, such as job matching, recommendation systems, and knowledge graph completion.
 
-# Features
-Directionality: Captures asymmetric relationships between objects
-Flexibility: Customizable asymmetric weighting function
-Improved search and recommendations: Provides more accurate results in domains with directionality
+## Features
 
-# Installation
+- Directionality: Captures asymmetric relationships between objects
+- Flexibility: Customizable asymmetric weighting function
+- Improved search and recommendations: Provides more accurate results in domains with directionality
+
+## Installation
+
 To install AsymmeTrix, simply use pip:
 
+```shell
 pip install asymmetrix
+```
 
 Here's a basic example that demonstrates how to use AsymmeTrix for computing asymmetric cosine similarity between job postings and applicants:
-```
+    
+```python
 import numpy as np
 from asymmetrix import AsymmetricCosineSimilarity
 
@@ -48,5 +54,7 @@ for i, applicant in enumerate(applicants):
         print(f"Applicant {i+1} and Job Posting {j+1}: Asymmetric Cosine Similarity = {similarity:.3f}")
 
 ```
-License
+
+## License
+
 AsymmeTrix is released under the MIT License.
