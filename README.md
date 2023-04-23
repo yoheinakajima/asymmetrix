@@ -9,11 +9,12 @@ AsymmeTrix addresses this issue by introducing a weighting factor based on a dom
 Directionality: Captures asymmetric relationships between objects
 Flexibility: Customizable asymmetric weighting function
 Improved search and recommendations: Provides more accurate results in domains with directionality
-Installation
+
+# Installation
 To install AsymmeTrix, simply use pip:
 
 pip install asymmetrix
-Usage
+
 Here's a basic example that demonstrates how to use AsymmeTrix for computing asymmetric cosine similarity between job postings and applicants:
 ```
 import numpy as np
