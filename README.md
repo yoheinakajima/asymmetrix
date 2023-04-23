@@ -1,4 +1,5 @@
 # AsymmeTrix: Asymmetric Vector Embeddings for Directional Similarity Search
+Read the full paper <a href='https://yoheinakajima.com/asymmetrix-asymmetric-vector-embeddings-for-directional-similarity-search/'>here<a>.
 AsymmeTrix is a Python library that utilizes asymmetric cosine similarity to capture directional relationships between objects. It offers a new approach to vector search and embeddings, addressing the limitations of symmetric similarity measures.
 
 Traditional vector embeddings typically use symmetric similarity measures like cosine similarity. While these measures work well in many applications, they may not accurately represent asymmetric relationships between objects.
